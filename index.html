@@ -6,45 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de Perfil de Elizabeth Zarate</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/25/25185.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="body">
     <main>
-        <section>
-            <div>
-                <article>
-                    <header>
-                        <div>
+        <section class="perfil">
+            <div class="perfil__container">
+                <article class="card">
+                    <header class="card__header">
+                        <div class="card__header-img-container">
                             <img src="img/WhatsApp Image 2022-08-21 at 9.16.11 PM.jpeg" alt="elizabeth zarate"
-                            width="256" height="256"/>
+                            width="256" height="256" class="card__header-img"/>
                         </div>
                     </header>
-                    <section>
-                        <h1>Elizabeth Zarate</h1>
-                        <h2>
+                    <section class="card__body" >
+                        <h1 class="card__body-title">Elizabeth Zarate</h1>
+                        <h2 class="card__body-keywords">
                             Desarrolladora| Frontend |React 
                             
                         </h2>
-                        <p>Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web Frontend.
+                        <p class="card__body-presentation">Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web Frontend.
                             Apasionado del autoaprendizaje y del código limpio.</p>
                     </section>
-                    <footer>
+                    <footer class="card__footer">
                         <nav>
-                            <ul>
-                                <li>
+                            <ul class="card__footer-nav-list" >
+                                <li class="card__footer-nav-item" >
                                     <!--redes: github, linkedin, twitter,web-->
-                                    <a href="#">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="32" height="32"/>
+                                    <a href="#" class="card__footer-nav-link">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="32" height="32" 
+                                        class="card__footer-nav-img"/>
                                     </a>
-                                    <a href="#">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="32" height="32"/>
-                                    </a>
-                                    <a href="#">
-                                        <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="twitter" width="32" height="32"/>
-                                    </a>
-                                    <a href="#">
-                                        <img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" alt="web" width="32" height="32"/>
-
                                 </li>
+                                <li class="card__footer-nav-item" >
+
+                                    <a href="#">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="32" height="32"
+                                        class="card__footer-nav-img"/>
+                                    </a>
+                                </li>
+                                <li class="card__footer-nav-item" >
+                                    <a href="#">
+                                        <img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png" alt="twitter" width="32" height="32"class="card__footer-nav-img" />
+                                    </a>
+                                </li>
+
+                                <li class="card__footer-nav-item" >
+                                    <a href="#">
+                                        <img src="https://i.pinimg.com/originals/00/50/71/005071cbf1fdd17673607ecd7b7e88f6.png" alt="web" width="32" height="32" class="card__footer-nav-img"/>
+
+                                    </li>
                             </ul>
                         </nav>
                     </footer>
